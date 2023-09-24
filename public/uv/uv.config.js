@@ -3,8 +3,8 @@
 self.__uv$config = {
   prefix: "/uv/service/",
   bare: "https://use.astroid.wtf/bare/",
-  encodeUrl: Ultraviolet.codec.xor.encode,
-  decodeUrl: Ultraviolet.codec.xor.decode,
+  encodeUrl: Ultraviolet.codec.base64.encode,
+  decodeUrl: Ultraviolet.codec.base64.decode,
   handler: "/uv/uv.handler.js",
   client: "/uv/uv.client.js",
   bundle: "/uv/uv.bundle.js",
